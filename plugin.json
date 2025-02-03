@@ -1,7 +1,7 @@
 {
-    "version": "1.2.0",
-    "title": "Sidebar for Tiny Theme",
-    "description": "Adds a sidebar to a blog using Tiny Theme",
+    "version": "0.0.1",
+    "title": "Sidebar for Bayou",
+    "description": "Adds a sidebar to a blog using the Bayou theme",
     "includes": [
         "/sidebar.css"
     ],
