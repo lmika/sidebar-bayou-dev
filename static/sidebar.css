@@ -3,7 +3,7 @@
         max-width: 50em;
     }
 
-    div.page-content:has(div.sidebar) {
+    div.page-content-wrapper:has(div.sidebar) {
         display: grid;
         grid-template-columns: minmax(20em,35em) 15em;
         column-gap: 60px;
@@ -28,7 +28,7 @@ div.sidebar {
 
 
 div.sidebar-item {
-  border-block-start: solid thin var(--accent1);
+  border-block-start: solid thin var(--primary);
   padding-block-start: 20px;
   padding-block-end: 20px;
 }
@@ -44,7 +44,6 @@ div.sidebar-item header {
 
 div.sidebar-item header h1 {
     font-size: 1.0em;
-    color: var(--accent1);
 }
 
 div.sidebar-item ul.blogroll,
@@ -60,11 +59,15 @@ div.sidebar-item ul.links li {
 
 div.sidebar-item ul.blogroll li a {
   text-decoration: none;
-  color: var(--text);
+  color: var(--primary);
+}
+
+div.sidebar-item ul.blogroll li a:hover {
+  text-decoration: underline;
 }
 
 div.sidebar-item ul.blogroll li a span {
-  color: var(--accent2);
+  color: var(--text-color);  
 }
 
 div.sidebar-item div.blogroll-footer-links {
@@ -78,10 +81,19 @@ div.sidebar-item div.blogroll-footer-links a {
   text-decoration: none;
 }
 
+div.sidebar-item div.blogroll-footer-links a:hover {
+  text-decoration: underline;
+}
+
+
 div.sidebar-item div.blogroll-footer-links a:first-of-type {
   margin-inline-start: 0;
 }
 
 div.sidebar-item ul.links li a {
   text-decoration: none;
+}
+
+div.sidebar-item ul.links li a:hover {
+  text-decoration: underline;
 }
