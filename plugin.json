@@ -1,5 +1,5 @@
 {
-    "version": "0.0.1",
+    "version": "1.0.0",
     "title": "Sidebar for Bayou",
     "description": "Adds a sidebar to a blog using the Bayou theme",
     "includes": [
